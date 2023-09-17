@@ -1,0 +1,118 @@
+.headerMenu__navigation{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+.HeaderTop{
+    margin-bottom: 3px;
+}
+.headerTop__logo {
+    /* transform: rotate(180deg); */
+    font-size: 57px;
+    margin-right: 15px;
+    cursor: pointer;
+
+}
+
+.headerTop__logo > img {
+   
+    width: 110px;
+    margin: 10px;
+}
+
+
+.headerMenu__list{
+    justify-content: center ;
+    display: flex;
+    line-height: 90px;
+    margin: 0;
+    padding: 0;
+    height: 55px;
+}
+
+.headerMenu__listItem{
+    position: relative;
+    margin-right: 10px;
+    list-style: none;
+    color: rgba(255, 255, 255, 0.48);
+    font-weight: 500;
+    cursor: pointer;
+}
+.headerMenu__listItem::before{
+    content: '';
+	position: absolute;
+	left: 0; bottom: -5px;
+	width: 0;
+	height: 1.5px;
+	background-color: rgb(143, 143, 143);
+}
+
+.headerMenu__listItem:hover:before {
+	width: 100%;
+}
+
+.headerMenu__listItem::before {
+	transition: width 0.35s;
+}
+
+
+.flex-wrap {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.userAvater {
+    color: rgb(255, 255, 255, 0.48);
+    width: 30px;
+    height: 30px;
+    font-size: 70px;
+    border: 2px solid rgb(255, 255, 255, 0.48);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 8px;
+    cursor: pointer !important;
+    
+}
+.userAvater:hover {
+    color: aliceblue;
+    border-color: aliceblue;
+    transition: 0.2s;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.449);
+    
+}
+
+.areaHeader {
+    align-items: center;
+}
+.LogOut-parrent {
+    height: 100%;
+}
+.LogOut {
+    margin-top: 33px;
+    color: rgba(255, 255, 255, 0.48);
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.LogOut:hover{
+    color: white;
+    
+}
+
+a {
+    text-decoration: none !important;
+    color: rgba(255, 255, 255, 0.48) !important;
+    cursor: pointer !important;
+}
+a:hover {
+    color: white !important;
+    transition: 0.5s !important;
+    
+}

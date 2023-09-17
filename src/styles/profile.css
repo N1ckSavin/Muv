@@ -1,0 +1,16 @@
+.profile-title {
+    color: rgb(250, 236, 236);
+}
+.profile-email{
+    font-size: 22px;
+    color: rgb(208, 213, 218);
+    margin-left: 10px;
+}
+.flex {
+    display: flex;
+}
+.letter-icon{
+    color: rgb(208, 213, 218);
+    font-size: 16   px;
+    padding-top: 11px;
+}

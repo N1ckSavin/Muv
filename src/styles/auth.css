@@ -1,0 +1,114 @@
+body{
+    background: #100e19;
+}
+.page__auth {
+    width: 550px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 230px;
+    border: 1px solid rgb(71, 71, 71);
+    border-radius: 20px;
+    background-color: #1f1a30;
+}   
+.info__auth{
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 25px;
+    color: white;
+}
+.title__auth{
+    color: #cccccc;
+}
+.text-pulse {
+    margin-left: 4px;
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    text-shadow: 0 -1px rgba(0,0,0,.1);
+    -webkit-animation: pulsate 1.2s linear infinite;
+    animation: pulsate 1.6s linear infinite;
+}
+@-webkit-keyframes pulsate {
+50% { color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff; }
+}
+@keyframes pulsate {
+50% { color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff; }
+}
+.text-pulse:hover{
+    animation: none;
+    color: rgb(211, 20, 20);
+    transition: 0.4s;
+  border-radius: 4px;
+  padding-left: 2px;
+  padding-right: 2px;
+
+}
+.form__auth{
+    width: 480px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 35px;
+    margin-left: 35px;
+}
+.btn {
+    width: 100%;
+    margin-top: 35px;
+    position: relative;
+    display: inline-block;
+    height: 60px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    border: 1px solid white;
+    background-size: 400%;
+    border-radius: 30px;
+    z-index: 1;
+    
+  } 
+  .btn:active {
+    color: white;
+    border: 2px solid black;
+  }
+  .btn:hover {
+    animation: animate 8s linear infinite;
+
+  }
+   
+  @keyframes animate {
+    0% {
+      background-position: 0%;
+    }
+    100% {
+      background-position: 400%;
+    }
+  }
+   
+  .btn:before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    bottom: -5px;
+    left: -5px;
+    z-index: -1;
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background-size: 400%;
+    border-radius: 40px;
+    opacity: 0;
+    transition: .5s;
+  }
+   
+  .btn:hover:before {
+    filter: blur(20px);
+    opacity: 1;
+    animation: animate 8s linear infinite;
+  }
+
+  .remove{
+    display: none !important;
+  }
+ 

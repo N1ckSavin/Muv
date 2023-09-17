@@ -1,0 +1,22 @@
+{
+  "folders": [
+	{
+		"path": "../../.."
+	},
+	{
+		"path": "../../../diplomaWERSTKA"
+	},
+	{
+		"path": "../../../../Downloads/task-2"
+	},
+	{
+		"path": "../../../IT-ACADEMY HW"
+	},
+	{
+		"path": "../../../FD3-IT-ACADEMY"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "projects"
+  }
+}
